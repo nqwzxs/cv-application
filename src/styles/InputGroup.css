@@ -1,0 +1,20 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input,
+textarea {
+  color: inherit;
+  background: #1c1917;
+  padding: 0.5rem;
+  border: none;
+  font-family: inherit;
+  min-height: 2rem;
+  resize: vertical;
+}
+
+textarea {
+  height: 6rem;
+}
