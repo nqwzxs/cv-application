@@ -1,4 +1,5 @@
 import EducationForm from './EducationForm'
+import ExperienceForm from './ExperienceForm'
 import PersonalForm from './PersonalForm'
 
 export default function Forms() {
@@ -6,6 +7,7 @@ export default function Forms() {
     <div>
       <PersonalForm />
       <EducationForm />
+      <ExperienceForm />
     </div>
   )
 }

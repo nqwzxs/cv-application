@@ -1,15 +1,15 @@
 function PersonalForm() {
   return (
     <form action="">
-      <label htmlFor="">
+      <label>
         Name
         <input type="text" />
       </label>
-      <label htmlFor="">
+      <label>
         Email
         <input type="text" />
       </label>
-      <label htmlFor="">
+      <label>
         Phone number
         <input type="text" />
       </label>

@@ -1,15 +1,15 @@
 function EducationForm() {
   return (
     <form action="">
-      <label htmlFor="">
+      <label>
         School name
         <input type="text" />
       </label>
-      <label htmlFor="">
+      <label>
         Title of study
         <input type="text" />
       </label>
-      <label htmlFor="">
+      <label>
         Date of study
         <input type="text" />
       </label>
