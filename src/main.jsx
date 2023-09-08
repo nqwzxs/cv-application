@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './styles/index.css'
-import Forms from './components/Forms'
+import FormContainer from './components/FormContainer'
+import ResumeContainer from './components/ResumeContainer'
+import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Forms />
+    <FormContainer />
+    <ResumeContainer />
   </React.StrictMode>,
 )
