@@ -2,12 +2,16 @@ import EducationForm from './EducationForm'
 import ExperienceForm from './ExperienceForm'
 import PersonalForm from './PersonalForm'
 
-export default function Forms() {
+import '../styles/FormContainer.css'
+
+function FormContainer() {
   return (
-    <div>
+    <div className='form-container'>
       <PersonalForm />
       <EducationForm />
       <ExperienceForm />
     </div>
   )
 }
+
+export default FormContainer
