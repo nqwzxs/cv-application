@@ -1,3 +1,9 @@
+import PersonalForm from './PersonalForm'
+
 export default function Forms() {
-  return <div></div>
+  return (
+    <div>
+      <PersonalForm />
+    </div>
+  )
 }
