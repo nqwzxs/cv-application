@@ -1,18 +1,12 @@
+import InputGroup from './InputGroup'
+
 function PersonalForm() {
   return (
-    <form action="">
-      <label>
-        Name
-        <input type="text" />
-      </label>
-      <label>
-        Email
-        <input type="text" />
-      </label>
-      <label>
-        Phone number
-        <input type="text" />
-      </label>
+    <form>
+      <h1>Personal info</h1>
+      <InputGroup labelText='Name' type='text' id='name' />
+      <InputGroup labelText='Email' type='email' id='email' />
+      <InputGroup labelText='Phone number' type='tel' id='phone-number' />
     </form>
   )
 }
