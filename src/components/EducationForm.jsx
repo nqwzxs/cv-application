@@ -1,20 +1,20 @@
-function PersonalForm() {
+function EducationForm() {
   return (
     <form action="">
       <label htmlFor="">
-        Name
+        School name
         <input type="text" />
       </label>
       <label htmlFor="">
-        Email
+        Title of study
         <input type="text" />
       </label>
       <label htmlFor="">
-        Phone number
+        Date of study
         <input type="text" />
       </label>
     </form>
   )
 }
 
-export default PersonalForm
+export default EducationForm
