@@ -21,9 +21,10 @@ body {
 
 #root {
   max-width: 1440px;
+  padding: 2rem;
+
   display: flex;
   margin: auto;
-  padding: 2rem;
   gap: 2rem;
   justify-content: space-between;
 }
