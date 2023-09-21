@@ -5,8 +5,8 @@ import { useState } from 'react'
 import Section from './Section'
 import InputGroup from './InputGroup'
 
-function SectionContainer() {
-  const [expandedSection, setExpandedSection] = useState(null)
+function SectionContainer({ personalInfo, education, experience }) {
+  const [expandedSection, setExpandedSection] = useState(0)
 
   const handleSectionToggle = (sectionId) => {
     if (sectionId === expandedSection) {
@@ -24,7 +24,7 @@ function SectionContainer() {
         isExpanded={expandedSection === 0}
         onToggle={() => handleSectionToggle(0)}
       >
-        <InputGroup labelText='Name' type='text' id='name' />
+        <InputGroup labelText='Full name' type='text' id='name' />
         <InputGroup labelText='Email' type='email' id='email' />
         <InputGroup labelText='Phone number' type='tel' id='phone-number' />
       </Section>

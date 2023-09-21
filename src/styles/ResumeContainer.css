@@ -4,3 +4,22 @@
 
   background: #ffffff;
 }
+
+.resume-header {
+  background: #701a75;
+  padding: 3rem 2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contacts {
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
