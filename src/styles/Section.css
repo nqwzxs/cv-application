@@ -1,5 +1,7 @@
 form {
-  border-top: 1rem solid #1c1917;
+  border-top: 0.5rem solid #1c1917;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
   padding: 2rem;
 
   display: none;
@@ -21,11 +23,17 @@ form {
   width: 100%;
   padding: 2rem;
   border: none;
+  border-radius: 1rem;
   cursor: pointer;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.expanded .section-header {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .chevron {
