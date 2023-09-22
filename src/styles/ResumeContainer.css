@@ -1,16 +1,24 @@
 .resume-container {
+  font-family: sans-serif;
+
   min-width: 21cm;
+  max-width: 21cm;
   height: 29.7cm;
+
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
 
   background: #ffffff;
 }
 
 .resume-header {
   background: #701a75;
-  padding: 3rem 2rem;
+  padding: 2rem;
 }
 
-h1 {
+.resume-header h1 {
   text-align: center;
 }
 
@@ -22,4 +30,40 @@ h1 {
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
+}
+
+.contact-group {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.resume-main {
+  flex: 1;
+  padding: 4rem;
+}
+
+.resume-main h3 {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+
+  background: hsl(297, 64%, 28%, 0.125);
+  color: #701a75;
+
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.container div {
+  min-width: 25%;
 }

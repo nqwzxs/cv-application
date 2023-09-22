@@ -22,6 +22,7 @@ body {
 #root {
   max-width: 1440px;
   padding: 2rem;
+  overflow: auto;
 
   display: flex;
   margin: auto;

@@ -2,33 +2,17 @@ import { useState } from 'react'
 
 import SectionContainer from './components/SectionContainer'
 import ResumeContainer from './components/ResumeContainer'
+import initialData from './initialData'
 
 function App() {
-  const initialData = {
-    personalInfo: {
-      fullName: 'John Doe',
-      email: 'john.doe@gmail.com',
-      phoneNumber: '+39 9999 9999 9999',
-      address: 'London, UK',
-    },
-    education: {
-      schoolName: '',
-      titleOfStudy: '',
-      startDate: '',
-      endDate: '',
-    },
-    experience: {
-      companyName: '',
-      positionTitle: '',
-      startDate: '',
-      endDate: '',
-      description: '',
-    },
-  }
-
   const [resumeData, setResumeData] = useState(initialData)
 
-  function handleChange() {}
+  function handleChange(event, section, input) {
+    setResumeData({
+      ...resumeData,
+      [section]: { ...resumeData[section], [input]: event.target.value },
+    })
+  }
 
   return (
     <>
@@ -36,6 +20,7 @@ function App() {
         personalInfo={resumeData.personalInfo}
         education={resumeData.education}
         experience={resumeData.experience}
+        handleChange={handleChange}
       />
       <ResumeContainer resumeData={resumeData} />
     </>

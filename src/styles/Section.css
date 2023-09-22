@@ -19,6 +19,7 @@ form {
 .section-header {
   background: #292524;
   color: inherit;
+  font-family: sans-serif;
 
   width: 100%;
   padding: 2rem;
@@ -29,6 +30,7 @@ form {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .expanded .section-header {
