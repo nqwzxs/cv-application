@@ -9,7 +9,9 @@ function Section({ name, isExpanded, onToggle, children }) {
         <h1>{name}</h1>
         <FaChevronDown className='chevron' />
       </button>
-      <form>{children}</form>
+      <div className='form-container'>
+        <form>{children}</form>
+      </div>
     </div>
   )
 }
