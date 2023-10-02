@@ -1,4 +1,7 @@
 .resume-container {
+  grid-column: 2 / -1;
+  grid-row: 1 / span 2;
+
   font-family: sans-serif;
 
   min-width: 21cm;

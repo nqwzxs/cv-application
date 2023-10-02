@@ -3,13 +3,13 @@ import { FaLocationDot } from 'react-icons/fa6'
 
 import '../styles/ResumeContainer.css'
 
-function ResumeContainer({ resumeData }) {
+function ResumeContainer({ resumeData, reference }) {
   function isEmpty(object) {
     return Object.values(object).every((value) => !value)
   }
 
   return (
-    <div className='resume-container'>
+    <div className='resume-container' ref={reference}>
       {!isEmpty(resumeData.personalInfo) && (
         <div className='resume-header'>
           <h1>{resumeData.personalInfo.fullName}</h1>

@@ -1,0 +1,11 @@
+#root {
+  max-width: 1440px;
+  padding: 2rem;
+  overflow: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  margin: auto;
+  gap: 2rem;
+}

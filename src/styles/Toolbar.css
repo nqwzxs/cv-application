@@ -1,0 +1,38 @@
+.toolbar {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toolbar button {
+  font-family: monospace;
+  font-size: 1rem;
+
+  color: inherit;
+  background: #292524;
+
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+  padding: 1.5rem;
+  border: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.toolbar button:first-of-type {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.toolbar button:last-of-type {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}

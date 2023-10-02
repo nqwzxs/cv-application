@@ -1,4 +1,4 @@
-const initialData = {
+const exampleData = {
   personalInfo: {
     fullName: 'John Doe',
     email: 'john.doe@gmail.com',
@@ -12,13 +12,13 @@ const initialData = {
     endDate: '2014',
   },
   experience: {
-    companyName: 'Google Inc.',
+    companyName: 'Google, Inc.',
     positionTitle: 'Software Developer',
     startDate: '2016',
     endDate: '2020',
     description:
-      'Improved search engine functionality and algorithm. Participated in developing projects, such as web.dev, YouTube, Google Drive. Enhanced performance of Angular framework. Had participation in Google I/O event.',
+      'Participated in developing projects, such as web.dev, YouTube, Google Drive. Enhanced performance of Angular framework. Had participation in Google I/O event.',
   },
 }
 
-export default initialData
+export default exampleData
