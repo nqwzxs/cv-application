@@ -14,11 +14,6 @@ function SectionContainer({
   const [expandedSection, setExpandedSection] = useState(0)
 
   const handleSectionToggle = (sectionId) => {
-    if (sectionId === expandedSection) {
-      setExpandedSection(null)
-      return
-    }
-
     setExpandedSection(sectionId)
   }
 
